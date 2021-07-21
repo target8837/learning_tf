@@ -1,0 +1,9 @@
+ <launch>
+
+    <node name="camera_tf_broadcaster" pkg="learning_tf" type="tf2_map_t265.py" respawn="false" output="screen" >
+      <param name="camera" type="string" value="t265" />
+      
+    </node>
+
+
+  </launch>
