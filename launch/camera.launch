@@ -1,0 +1,6 @@
+ <launch>
+
+    <node name="camera_tf_broadcaster" pkg="learning_tf" type="camera_switch.py" respawn="false" output="screen" />
+
+
+  </launch>

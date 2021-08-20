@@ -1,0 +1,6 @@
+ <launch>
+
+    <node name="camera_tf_broadcaster" pkg="learning_tf" type="uav_camera.py" respawn="false" output="screen" />
+
+
+  </launch>

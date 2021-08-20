@@ -1,0 +1,6 @@
+ <launch>
+
+    <node name="camera_tf_broadcaster" pkg="learning_tf" type="pose_sec.py" respawn="false" output="screen" />
+
+
+  </launch>
